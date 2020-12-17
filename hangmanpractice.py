@@ -34,4 +34,4 @@ def hangman(word):
     if not win:
         print("you lose :( - The word was {}").format(word)
         print("\n".join(hanging[0:wrongtries]))
-hangman("cat")
+hangman("test")
